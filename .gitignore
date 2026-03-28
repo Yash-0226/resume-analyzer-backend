@@ -1,0 +1,7 @@
+# Never push these to GitHub
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pdf
