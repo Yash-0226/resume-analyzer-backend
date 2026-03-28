@@ -112,4 +112,4 @@ def server_error(e):
 if __name__ == "__main__":
     # debug=True → auto-reloads when you save a file (great for development)
     # Remove debug=True when deploying to production
-    app.run(debug=True, port=5000)
+    app.run(debug=False, host="0.0.0.0", port=5000)
